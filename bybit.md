@@ -1,0 +1,119 @@
+[ccxt bybit doc](https://docs.ccxt.com/exchanges/bybit)
+- [ ] enableDemoTrading
+- [ ] isUnifiedEnabled
+- [ ] upgradeUnifiedTradeAccount
+- [x] fetchTime
+- [x] fetchCurrencies
+- [x] fetchMarkets
+- [x] fetchTicker
+- [x] fetchTickers
+- [x] fetchBidsAsks
+- [ ] fetchOHLCV
+- [ ] fetchFundingRates
+- [ ] fetchFundingRateHistory
+- [x] fetchTrades
+- [x] fetchOrderBook
+- [x] fetchBalance
+- [x] createMarketBuyOrderWithCost
+- [x] createMarkeSellOrderWithCost
+- [x] createOrder
+- [x] createOrders
+- [x] editOrder
+- [x] editOrders
+- [x] cancelOrder
+- [x] cancelOrders
+- [x] cancelAllOrdersAfter
+- [x] cancelOrdersForSymbols
+- [x] cancelAllOrders
+- [ ] fetchOrderClassic
+- [ ] fetchOrder
+- [ ] fetchOrders
+- [ ] fetchOrdersClassic
+- [ ] fetchClosedOrder
+- [ ] fetchOpenOrder
+- [ ] fetchCanceledAndClosedOrders
+- [ ] fetchClosedOrders
+- [ ] fetchCanceledOrders
+- [ ] fetchOpenOrders
+- [ ] fetchOrderTrades
+- [ ] fetchMyTrades
+- [ ] fetchDepositAddressesByNetwork
+- [ ] fetchDepositAddress
+- [ ] fetchDeposits
+- [ ] fetchWithdrawals
+- [ ] fetchLedger
+- [ ] withdraw
+- [ ] fetchPosition
+- [ ] fetchPositions
+- [ ] fetchLeverage
+- [ ] setMarginMode
+- [ ] setLeverage
+- [ ] setPositionMode
+- [ ] fetchOpenInterest
+- [ ] fetchOpenInterestHistory
+- [ ] fetchCrossBorrowRate
+- [ ] fetchBorrowInterest
+- [ ] fetchBorrowRateHistory
+- [ ] transfer
+- [ ] fetchTransfers
+- [ ] borrowCrossMargin
+- [ ] repayCrossMargin
+- [ ] fetchMarketLeverageTiers
+- [ ] fetchTradingFee
+- [ ] fetchTradingFees
+- [ ] fetchDepositWithdrawFees
+- [ ] fetchSettlementHistory
+- [ ] fetchMySettlementHistory
+- [ ] fetchVolatilityHistory
+- [ ] fetchGreeks
+- [ ] fetchAllGreeks
+- [ ] fetchMyLiquidations
+- [ ] fetchLeverageTiers
+- [ ] fetchFundingHistory
+- [ ] fetchOption
+- [ ] fetchOptionChain
+- [ ] fetchPositionsHistory
+- [ ] fetchConvertCurrencies
+- [ ] fetchConvertQuote
+- [ ] createConvertTrade
+- [ ] fetchConvertTrade
+- [ ] fetchConvertTradeHistory
+- [ ] fetchLongShortRatioHistory
+- [x] createOrderWs
+- [x] editOrderWs
+- [x] cancelOrderWs
+- [x] watchTicker
+- [x] watchTickers
+- [x] unWatchTickers
+- [x] unWatchTicker
+- [x] watchBidsAsks
+- [ ] watchOHLCV
+- [ ] watchOHLCVForSymbols
+- [ ] unWatchOHLCVForSymbols
+- [ ] unWatchOHLCV
+- [x] watchOrderBook
+- [x] watchOrderBookForSymbols
+- [x] unWatchOrderBookForSymbols
+- [x] unWatchOrderBook
+- [x] watchTrades
+- [x] watchTradesForSymbols
+- [x] unWatchTradesForSymbols
+- [x] unWatchTrades
+- [ ] watchMyTrades
+- [ ] unWatchMyTrades
+- [ ] watchPositions
+- [ ] unWatchPositions
+- [ ] watchLiquidations
+- [ ] watchOrders
+- [ ] unWatchOrders
+- [ ] watchBalance
+
+* language
+  * Rust
+* libs
+  * http: reqwest
+  * websocket: tokio-tungstenite
+  * runtime: tokio
+* to be noticed
+  * all method should be async
+  * definition of related structs follow the [ccxt manual](https://github.com/ccxt/ccxt/wiki/Manual) 
